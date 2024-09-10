@@ -17,8 +17,6 @@ Console.WriteLine("Using model to make single prediction -- Comparing actual Col
 
 Console.WriteLine($"Col0: {3F}");
 Console.WriteLine($"Col1: {9F}");
-Console.WriteLine($"Col2: {@"S"}");
-
 
 var sortedScoresWithLabel = MLModel1.PredictAllLabels(sampleData);
 Console.WriteLine($"{"Class",-40}{"Score",-20}");
